@@ -1,32 +1,43 @@
 import React,{useEffect,useState} from 'react';
 import axios from 'axios';
+import './blog.css'
 
 
 const Blog=()=>{
     const [Data,setData]=useState({
-        Company:'',
-        Description:''
+        
+        Image:''
     })
+    
+
     useEffect(()=>{
     axios.get('https://foodish-api.com/api/')
         .then(res=>{
             console.log('Response from main API: ',res)
-            console.log('Blog Data: ',res.data.ad)
-            let companyData=res.data.ad;
-            setData({Company:companyData.company,Description:companyData.text})
+            console.log('Image Data: ',res.data.image)
+            let imageData=res.data.image;
+            setData({Image:imageData})
         })
         .catch(err=>{
             console.log(err);
         })
+        
 },[])
+
+
+
 return (
-    <>
-        <h1>
-            Food dishes
-        </h1>
+    <div className="blog">
+       {/* <h1>{Data.Image}</h1> */}
+       <img src={Data.Image} alt="food" height = {400} width='auto'/>
+       
+
+        {/* //console.log(image.res); */}
+       <p> hi</p>
     
-    </>
+    </div>
 );
 }
+
 
 export default Blog;

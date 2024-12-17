@@ -10,6 +10,8 @@ import About from "./Pages/About";
 import Blog from "./Pages/blog";
 import SignUp from "./Pages/signup";
 import Contact from "./Pages/contact";
+import "./Pages/blog.css"
+
 
 function App() {
     return (
@@ -30,6 +32,8 @@ function App() {
                 />
             </Routes>
         </Router>
+
+
     );
 }
 
