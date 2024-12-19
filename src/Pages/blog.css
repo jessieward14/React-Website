@@ -1,6 +1,22 @@
 
 
 .blog{
-   background-color: red;
+   /* background-color: red; */
+   display: flex;
+   margin-top: '2rem';
+   text-align: 'center';
+   border-image-width: 1in;
+   image-orientation: 0deg;
+   border-image: 10%;
+   border-color: blue;
+   justify-content: center;
+   align-items: center;
+   
    /* color:red; */
+}
+.Image{
+    border-image-width: 1in;
+    image-orientation: 0deg;
+    border-image: 10%;
+    border-color: blue;
 }
