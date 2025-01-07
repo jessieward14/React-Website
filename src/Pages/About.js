@@ -4,9 +4,10 @@ const About = () => {
     return (
         <div>
             <h1>
-                GeeksforGeeks is a Computer Science portal
-                for geeks.
+                What to know about my website?
             </h1>
+            <p> See the Blogs page to view some cool dishes!</p>
+            <p> See the Jokes page if you want some good jokes!</p>
         </div>
     );
 };

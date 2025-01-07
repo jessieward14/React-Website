@@ -8,7 +8,7 @@ import {
 import Home from "./Pages";
 import About from "./Pages/About";
 import Blog from "./Pages/blog";
-import SignUp from "./Pages/signup";
+import Jokes from "./Pages/jokes";
 import Contact from "./Pages/contact";
 import "./Pages/blog.css"
 
@@ -27,8 +27,8 @@ function App() {
                 />
                 <Route path="/blog" element={<Blog />} />
                 <Route
-                    path="/signup"
-                    element={<SignUp />}
+                    path="/jokes"
+                    element={<Jokes />}
                 />
             </Routes>
         </Router>

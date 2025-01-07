@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import './signUp.css'; // Y
+import './jokes.css'; // Y
 
 // instead of one const of image in Blog there are 2:setup and punchline as that is how the api works
-const SignUp = () => {
+const Jokes = () => {
     const [joke, setJoke] = useState({ //instead of data in blog - changed to joke for this
       setup: '',
       punchline: '',
@@ -40,7 +40,7 @@ const handleClickSetup = () => {
 
 
 return (
-    <div className="sign-up">
+    <div className="Jokes">
       <div className="joke-container">
         <h2>Oh! You want a joke to go with your meal?? I've got just the ones for you!</h2>
         <p className="joke-setup" onClick={handleClickSetup}>
@@ -56,4 +56,4 @@ return (
 };
 
 
-export default SignUp;
+export default Jokes;

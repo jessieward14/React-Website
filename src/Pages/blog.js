@@ -10,7 +10,7 @@ const Blog=()=>{
         Image:''
     })
     
-        const changeImage = () => {
+        const changeImage = () => {//https://stackoverflow.com/questions/73678855/fetch-and-display-image-from-api-react
     axios.get('https://foodish-api.com/api/')
         .then(res=>{
             console.log('Response from API: ', res);
@@ -38,7 +38,7 @@ return (
         alt="food"
         height={400}
         width='auto'
-        onClick={changeImage} // Fetch a new image when clicked
+        onClick={changeImage} // Fetch a new image when clicked -https://stackoverflow.com/questions/73678855/fetch-and-display-image-from-api-react
       />
         {/* //console.log(image.res); */}
         
