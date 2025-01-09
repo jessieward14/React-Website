@@ -8,11 +8,13 @@
     background-color: rgb(252, 253, 208)
   }
   
+  /* area where the joke is */
   .joke-container {
     text-align: center;
     margin-bottom: 20px;
   }
   
+  /* the joke styling */
   .joke-setup {
     font-size: 15px;
     font-weight: bold;
@@ -20,13 +22,15 @@
     color: #333;
     margin-bottom: 10px;
   }
-  
-  .joke-punchline {
+
+  /* the answer to the joke */
+  .joke-punchline {  
     font-size: 12px;
     color: #555;
     margin-top: 10px;
   }
   
+  /* the new joke button */
   .new-joke-button {
     padding: 10px 20px;
     background-color:rgb(156, 223, 250);
@@ -38,6 +42,7 @@
 
   }
   
+  /* makes the joke button change color when hovering over it */
   .new-joke-button:hover {
     background-color: #0056b3;
   }

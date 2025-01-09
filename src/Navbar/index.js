@@ -9,9 +9,6 @@ const Navbar = () => {
                     <NavLink to="/About" activeStyle>
                         About
                     </NavLink>
-                    <NavLink to="/contact" activeStyle>
-                        Contact Us
-                    </NavLink>
                     <NavLink to="/blog" activeStyle>
                         Blogs
                     </NavLink>

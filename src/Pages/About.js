@@ -1,6 +1,7 @@
 import React from "react";
 
 const About = () => {
+    // what I am printing in the about me page
     return (
         <div>
             <h1>

@@ -9,10 +9,9 @@ import Home from "./Pages";
 import About from "./Pages/About";
 import Blog from "./Pages/blog";
 import Jokes from "./Pages/jokes";
-import Contact from "./Pages/contact";
 import "./Pages/blog.css"
 
-
+// setting up the pages
 function App() {
     return (
         
@@ -21,10 +20,6 @@ function App() {
             <Routes>
                 <Route exact path="/" element={<Home />} />
                 <Route path="/About" element={<About />} />
-                <Route
-                    path="/contact"
-                    element={<Contact />}
-                />
                 <Route path="/blog" element={<Blog />} />
                 <Route
                     path="/jokes"
