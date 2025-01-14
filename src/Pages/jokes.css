@@ -1,17 +1,26 @@
 .Jokes {
     display: flex;
     flex-direction: column;
+    height: 500%;
+    width: 100%;
     align-items: center;
     justify-content: center;
     padding: 20px;
     font-family: 'Arial', sans-serif;
-    background-color: rgb(252, 253, 208)
+    
+  }
+  body{
+    display: block;
+    height: 500%;
+    justify-content: center;
+
   }
   
   /* area where the joke is */
   .joke-container {
     text-align: center;
     margin-bottom: 20px;
+    height: 500%;
   }
   
   /* the joke styling */
@@ -19,7 +28,7 @@
     font-size: 15px;
     font-weight: bold;
     cursor: pointer;
-    color: #333;
+    color: rgb(39, 38, 38);
     margin-bottom: 10px;
   }
 

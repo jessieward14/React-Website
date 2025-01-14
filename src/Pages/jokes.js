@@ -35,6 +35,7 @@ const handleClickSetup = () => {
 
   useEffect(() => {
     fetchJoke();
+    // document.body.style.backgroundColor = "rgb(185,205,230)"
   }, []);
 
 

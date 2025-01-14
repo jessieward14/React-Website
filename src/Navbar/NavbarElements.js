@@ -29,12 +29,13 @@ export const NavLink = styled(Link)`
 `;
 
 export const Bars = styled(FaBars)`
-    display: none;
+    // display: none;
     color: green;
     display: flex;
+    justify-content: center;
     align-items: center;
     @media screen and (max-width: 768px) {
-        display: block;
+        // display: block;
         position: absolute;
         top: 0;
         right: 0;
