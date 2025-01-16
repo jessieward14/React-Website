@@ -51,7 +51,7 @@
 
   }
   
-  /* makes the joke button change color when hovering over it */
+  /* makes the joke button change color when mouse is over it */
   .new-joke-button:hover {
     background-color: #0056b3;
   }
